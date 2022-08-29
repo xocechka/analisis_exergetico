@@ -1,0 +1,43 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": [
+    "source.fixAll.eslint"
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "vue"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "vue3snippets.enable-compile-vue-file-on-did-save-code": false,
+  "gitflow4code.init": {
+    "develop": "develop",
+    "master": "main",
+    "releases": "release/",
+    "hotfixes": "hotfix/",
+    "features": "feature/",
+    "support": ""
+  },
+  "gitflow4code.features": [],
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "exportall.config.folderListener": [
+    "/src/modules/exergia/models",
+    "/src/modules/exergia/composables",
+    "/src/modules/exergia/stores"
+  ]
+}
